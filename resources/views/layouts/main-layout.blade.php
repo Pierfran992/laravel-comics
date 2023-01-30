@@ -9,6 +9,15 @@
     <title>Laravel Comics</title>
 </head>
 <body>
+    {{-- includo il file contenente l'header della pagina --}}
+    @include('components.header')
+    {{-- includo il file contenente il jumbotron --}}
+    @include('components.jumbo')
+
+    {{-- richiamo il contenuto dei file home o product --}}
     @yield('content')
+
+    {{-- includo il file contenente il footer della pagina --}}
+    @include('components.footer')
 </body>
 </html>

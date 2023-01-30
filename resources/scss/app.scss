@@ -1,1 +1,41 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+// general rules
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+// header rules
+.ms_top_header {
+    background-color: #0282f9;
+    height: 25px;
+
+    .ms_ul_top_header {
+
+        a {
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 13px;
+        }
+    }
+}
+
+.ms_bottom_header {
+    height: 100px;
+
+    #ms_logo {
+        width: 60px;
+        height: auto;
+    }
+}
+
+// jumbotron rules
+.ms_jumbotron {
+    background-image: url('/resources/img/jumbotron.jpg');
+    background-size: cover;
+    height: 300px;
+}
