@@ -1,3 +1,4 @@
+{{-- parte superiore del footer --}}
 <div class="container-fluid ms_top_footer justify-content-between">
     <div class="container d-flex justify-content-between align-items-stretch">
         <div class="col-7 py-4">
@@ -107,12 +108,34 @@
             </div>
         </div>
         {{-- div contenente come backgroud il logo della dc --}}
-        <div class="col-5 ms_ctn_big_logo">
-            
-        </div>
+        <div class="col-5 ms_ctn_big_logo"></div>
     </div>
 </div>
 
+{{-- parte inferiore del footer --}}
 <div class="container-fluid ms_bottom_footer">
+    <div class="container h-100 d-flex justify-content-between align-items-center">
+        <div class="col-2">
+            <button type="button" class="btn btn-primary ms_btn_footer">SING-UP NOW!</button>
+        </div>
 
+        <div class="ms_ctn_social col-4 d-flex justify-content-between align-items-center">
+            <h4>FOLLOW US</h4>
+            <div class="ms_slot_img_social">
+                <img src="{{Vite :: asset('/resources/img/footer-facebook.png')}}" alt="">
+            </div>
+            <div class="ms_slot_img_social">
+                <img src="{{Vite :: asset('/resources/img/footer-twitter.png')}}" alt="">
+            </div>
+            <div class="ms_slot_img_social">
+                <img src="{{Vite :: asset('/resources/img/footer-youtube.png')}}" alt="">
+            </div>
+            <div class="ms_slot_img_social">
+                <img src="{{Vite :: asset('/resources/img/footer-pinterest.png')}}" alt="">
+            </div>
+            <div class="ms_slot_img_social">
+                <img src="{{Vite :: asset('/resources/img/footer-periscope.png')}}" alt="">
+            </div>
+        </div>
+    </div>
 </div>
