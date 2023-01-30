@@ -39,3 +39,47 @@ a {
     background-size: cover;
     height: 300px;
 }
+
+// footer rules
+.ms_top_footer {
+    background-image: url('/resources/img/footer-bg.jpg');
+    background-size: cover;
+    height: fit-content;
+
+    .ms_container_menu {
+
+        height: 300px;
+
+        h4 {
+            font-weight: 600;
+            font-size: 18px;
+            color: #ffffff;
+        }
+
+        ul {
+            padding: 0;
+
+            li {
+                color: #959595;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .ms_ctn_copyright {
+        p {
+            color: #959595;
+            font-size: 13px;
+        }
+    }
+
+    .ms_ctn_big_logo {
+        background-image: url('/resources/img/dc-logo-bg.png');
+        background-size: cover;
+    }
+}
+
+.ms_bottom_footer {
+    background-color: #303030;
+    height: 80px;
+}
