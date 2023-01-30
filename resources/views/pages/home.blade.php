@@ -227,6 +227,7 @@ $comics = [
                 <h1> CURRENT SERIES</h1>
             </div>
         </div>
+        {{-- container delle card --}}
         <div class="container d-flex align-items-stretch flex-wrap">
             <?php
             // creo un forech per generare le card con gli elementi contenuti nell'array $comics
@@ -237,6 +238,10 @@ $comics = [
                         . "</div>";
                 }
             ?>
+        </div>
+        {{-- bottone per caricare più risultati --}}
+        <div class="ms_btn_load_more">
+            LOAD MORE
         </div>
     </div>
 @endsection
