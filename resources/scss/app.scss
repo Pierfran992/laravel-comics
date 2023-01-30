@@ -109,6 +109,98 @@ a {
 
 }
 
+// product rules
+.ms_top_bar_product {
+    background-color: #0282f9;
+    height: 60px;
+
+    .ms_banner_product {
+        width: 150px;
+        height: auto;
+        border-color: solid 1px #ffffff;
+        position: relative;
+        top: -180px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .ms_top_badges_banner,
+        .ms_bottom_badges_banner {
+            background-color: #00a9d9;
+            color: #ffffff;
+            font-size: 10px;
+        }
+
+        .ms_top_badges_banner {
+            width: fit-content;
+            padding: 2px 4px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .ms_bottom_badges_banner {
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    }
+}
+
+.ms_desc_comic {
+
+    .ms_title_comic {
+        color: #003f5e;
+        font-weight: 600;
+    }
+
+    .ms_buy_details {
+        background-color: #55ba59;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    p {
+        color: #303030;
+        font-weight: 600;
+    }
+}
+
+.ms_ctn_publicity {
+    h2 {
+        font-size: 14px;
+        color: #303030;
+        font-weight: 600;
+    }
+}
+
+.ms_section_details_comic {
+    background-color: #f6f6f6;
+
+    h4,
+    h6 {
+        color: #003f5e;
+        font-weight: 600;
+    }
+
+    h4 {
+        padding-bottom: 30px;
+        border-bottom: solid 1px #959595;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
+    .ms_slot_info {
+        border-bottom: solid 1px #959595;
+    }
+}
+
 // footer rules
 .ms_top_footer {
     background-image: url('/resources/img/footer-bg.jpg');
