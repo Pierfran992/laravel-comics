@@ -244,4 +244,50 @@ $comics = [
             LOAD MORE
         </div>
     </div>
+
+    {{-- sezione shortcuts --}}
+    <div class="container-fluid ms_section_shortcuts py-4">
+        <div class="container d-flex justify-content-between">
+            <div class="ms_slot_shortcuts d-flex align-items-center">
+                <div class="ms_shortcut_img">
+                    <img src="{{Vite::asset('/resources/img/buy-comics-digital-comics.png')}}" alt="digital_comics">
+                </div>
+                <div class="ms_shortcut_text">
+                    <a href="#">DIGITAL COMICS</a>
+                </div>
+            </div>
+            <div class="ms_slot_shortcuts d-flex align-items-center">
+                <div class="ms_shortcut_img">
+                    <img src="{{Vite::asset('/resources/img/buy-comics-merchandise.png')}}" alt="digital_comics">
+                </div>
+                <div class="ms_shortcut_text">
+                    <a href="#">DC MERCHANDISE</a>
+                </div>
+            </div>
+            <div class="ms_slot_shortcuts d-flex align-items-center">
+                <div class="ms_shortcut_img">
+                    <img src="{{Vite::asset('/resources/img/buy-comics-subscriptions.png')}}" alt="digital_comics">
+                </div>
+                <div class="ms_shortcut_text">
+                    <a href="#">SUBSCRIPTION</a>
+                </div>
+            </div>
+            <div class="ms_slot_shortcuts d-flex align-items-center">
+                <div class="ms_shortcut_img">
+                    <img src="{{Vite::asset('/resources/img/buy-comics-shop-locator.png')}}" alt="digital_comics">
+                </div>
+                <div class="ms_shortcut_text">
+                    <a href="#">COMIC SHOP LOCATOR</a>
+                </div>
+            </div>
+            <div class="ms_slot_shortcuts d-flex align-items-center">
+                <div class="ms_shortcut_img">
+                    <img src="{{Vite::asset('/resources/img/buy-dc-power-visa.svg')}}" alt="digital_comics">
+                </div>
+                <div class="ms_shortcut_text">
+                    <a href="#">DC POWER VISA</a>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection

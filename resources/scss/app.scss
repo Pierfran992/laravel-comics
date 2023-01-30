@@ -82,6 +82,33 @@ a {
     }
 }
 
+.ms_section_shortcuts {
+    background-color: #0282f9;
+
+    .ms_slot_shortcuts {
+
+        .ms_shortcut_img {
+            width: 40px;
+            height: auto;
+            margin-right: 10px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .ms_shortcut_text {
+            a {
+                color: #ffffff;
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+    }
+
+
+}
+
 // footer rules
 .ms_top_footer {
     background-image: url('/resources/img/footer-bg.jpg');
