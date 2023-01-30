@@ -9,6 +9,7 @@
     <title>Laravel Comics</title>
 </head>
 <body>
-    <h1>home page</h1>
+    <h1>prodotti
+    </h1>
 </body>
 </html>
