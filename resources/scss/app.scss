@@ -40,6 +40,39 @@ a {
     height: 300px;
 }
 
+// home rules
+.ms_section_card {
+    background-color: #1c1c1c;
+
+    .ms_badges {
+
+        background-color: #0282f9;
+        width: fit-content;
+        padding: 5px 25px;
+        position: relative;
+        top: -50px;
+
+        h1 {
+            font-size: 25px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+    }
+
+    .ms_card {
+        height: fit-content;
+
+        img {
+            color: #ffffff;
+            width: 100%;
+        }
+
+        h5 {
+            color: #ffffff;
+        }
+    }
+}
+
 // footer rules
 .ms_top_footer {
     background-image: url('/resources/img/footer-bg.jpg');
